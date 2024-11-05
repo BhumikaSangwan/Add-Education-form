@@ -1,0 +1,117 @@
+body{
+    background-color: #d3d3d3;
+}
+#container {
+    width: 70%;
+    margin: 5% auto;
+    font-size: 1.1em;
+    font-weight: 600;
+}
+
+#addEducationDiv {
+    width: 100%;
+    margin: auto;
+}
+
+#educationBtn {
+    height: 6vh;
+    font-size: 1.3em;
+    width: 80%;
+    background-color: blue;
+    color: white;
+    margin-bottom: 3%;
+    border-radius: 5px;
+}
+
+label,
+input {
+    margin: auto;
+}
+
+input{
+    background-color: gainsboro;
+}
+
+#getInfo {
+    width: 76%;
+    padding: 2%;
+    display: none;
+    background-color: gray;
+    border: 2px solid rgb(82, 81, 81);
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px 5px #9ecaed;
+}
+
+#submitBtn {
+    height: 5vh;
+    width: 10vw;
+    background-color: green;
+    margin-right: 60%;
+    font-size: 1.2em;
+    margin-bottom: 3%;
+}
+
+#cancelBtn {
+    height: 5vh;
+    width: 10vw;
+    background-color: red;
+    font-size: 1.2em;
+    margin-bottom: 3%;
+}
+
+table{
+    border-radius: 25%;
+}
+label {
+    display: inline-block;
+    font-size: 1.3em;
+    width: 57%;
+}
+
+input {
+    width: 40%;
+    height: 4vh;
+    border: 2px solid black;
+    margin-bottom: 3%;
+}
+
+input:focus { 
+outline:none;
+border-color:#7393ac;
+box-shadow:0 0 10px #9ecaed;
+}
+
+#showInfo {
+    display: none;
+    width: 100%;
+    margin: auto;
+    margin-top: 2%;
+}
+
+#infoTable {
+    height: 30%;
+    width: 100%;
+    margin: auto;
+}
+
+table,
+tr,
+td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+td {
+    height: 4vh;
+    width: 10vw;
+}
+
+a {
+    color: blue;
+    padding-left: 4%;
+}
+
+a:hover {
+    cursor: pointer;
+}
